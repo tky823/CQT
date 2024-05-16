@@ -49,3 +49,7 @@ torch.Size([1, 48, 107])
 >>> torch.mean(torch.abs(new_spectrogram - spectrogram))
 tensor(0.0002)
 ```
+
+## Note
+
+To be compatible with `librosa.cqt`, you have to rescale CQT kernels.
